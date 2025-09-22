@@ -1,0 +1,50 @@
+.main-content {
+    margin: 1rem;
+}
+
+.about_us_headline {
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.about_us_subheadline {
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
+
+}
+
+.about_us_contents {
+    display: flex;
+    flex-direction: column;
+}
+
+.about_us_tagline {
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+
+}
+
+.image {
+    max-width: 100%;
+}
+
+@media(min-width:769px) {
+
+    .about_us_picture {
+        padding-right: 2rem;
+        padding-top: 2rem;
+
+    }
+
+    .image {
+        height: auto;
+    }
+
+    .about_us_contents {
+        flex-direction: row;
+    }
+
+}

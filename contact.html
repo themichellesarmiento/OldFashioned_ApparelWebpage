@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Fashioned</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="./styles/contact-us.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-contents">
+                <h1 class="header_title">Welcome to Old fashioned</h1>
+                <h2 class="header_subtitle">Home of the best apparel</h2>
+                <a href="./home.html#new-in-section"><button class="headline_new_in_btn">New In</button></a>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="sidebar">
+        <a href="home.html">
+            <h4>Shop</h4>
+        </a>
+        <a href="./home.html#new-in-section">
+            <h4>New In</h4>
+        </a>
+        <a href="./home.html#best-seller-section">
+            <h4>Best Seller</h4>
+        </a>
+        <a href="./about.html">
+            <h4>About</h4>
+        </a>
+        <a href="./contact.html">
+            <h4>Contact</h4>
+        </a>
+    </div>
+
+    <main class="main-content">
+        <h2 class="contact_us_headline">Get in touch</h2>
+        <h3 class="contact_us_subheadline">Use this text to share information about your brand with your customers.
+            Describe a product, share announcements, or welcome customers to your store.</h3>
+        <section class="contact_us_form">
+            <form action="mailto:oldfashioned@yahoo.com" method="POST" enctype="text/plain" class="form">
+                <div class="user_input">
+                    <label for="name">First Name: </label>
+                    <input type="text" name="name" id="name" required pattern="^[A-Z][a-z]+(\s[A-Z][a-z]?){0,}" />
+                </div>
+                <div class="user_input">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" maxlength="100" autocorrect="off" autocapitalize="off"
+                        required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" />
+                </div>
+                <div class="user_input">
+                    <label for="message">Message: </label>
+                    <textarea type="textarea" name="message" id="message" placeholder="Type your message here"
+                        required=""></textarea>
+                </div>
+                <div class="user_input">
+                    <button class="submit">Send</button>
+                </div>
+            </form>
+        </section>
+        <section class="contact_us_customer_service">
+            <div class="image_container">
+                <img src="./assets/hero-image-blackandwhite.png" alt="Friends drinking cocktails" class="image" />
+            </div>
+            <div class="customer_support">
+                <h2 class="customer_support_headline"> Customer Support</h2>
+                <p>CHAT</p>
+                <p>M-F: 08:00 until 19:00</p>
+                <p>S: 08:00 until 16:00</p>
+            </div>
+        </section>
+    </main>
+
+   <footer class="footer">
+        <div class="footer_contents">
+            <h4>Search</h4>
+            <h4>Terms of Service</h4>
+            <h4>Return Policy</h4>
+            <h4>Shipping Policy</h4>
+            <h4>The Cocktail Blog</h4>
+            <h4>The Wine Blog</h4>
+        </div>
+
+        <div class="footer_sign_up">
+            <h3 class="headline">Sign Up To Our Newsletter</h3>
+            <p>Subscribe to get special offers, cocktail recipes and our latest arrivals!</p>
+            <input type="email" value="" placeholder="Enter your email" name="email" id="email"
+                class="footer_newsletter_input" size="50" autocorrect="off" autocapitalize="off" required="">
+        </div>
+    </footer>
+</body>
+
+</html>

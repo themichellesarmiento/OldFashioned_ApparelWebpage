@@ -1,0 +1,233 @@
+.header-container {
+    align-items: center;
+    /*NOTE: this image is generated through chatgpt*/
+    background-image: url(../assets/hero-image.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 1rem;
+
+}
+
+.header-contents {
+    text-align: center;
+
+}
+
+
+.header_title {
+    color: var(--primary-color);
+    padding-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+.header_subtitle {
+    color: var(--primary-color);
+    padding-bottom: 2rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.headline_new_in_btn,
+.add_btn,
+.section_btn,
+.quick_view_btn,
+.search_input,
+.view_less_btn,
+.view_more_btn,
+.browse_btn {
+    border: 1px solid var(--secondary-color);
+    color: var(--secondary-color);
+    padding: 1rem 2rem;
+    text-transform: uppercase;
+}
+
+.quick_view_btn,
+.add_btn,
+.view_less_btn,
+.view_more_btn,
+.browse_btn {
+    margin-top: 0.5rem;
+    width: 100%;
+
+}
+
+.headline_new_in_btn:hover,
+.add_btn:hover,
+.section_btn:hover,
+.quick_view_btn:hover,
+.search_input:hover,
+.browse_btn:hover {
+    border: 1px solid var(--CTA-hover);
+    color: var(--CTA-hover);
+    cursor: grab;
+}
+
+.section_btn {
+    margin-top: 2rem;
+}
+
+.sidebar {
+    color: var(--secondary-color);
+    display: flex;
+    grid-area: sidebar;
+    justify-content: space-around;
+    padding: 0.5rem;
+}
+
+.sidebar a,
+.about-us-link {
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.sidebar a:hover,
+.about-us-link:hover {
+    color: var(--CTA-hover);
+}
+
+.main-content {
+    background-color: var(--tertiary-light);
+    grid-area: main-content;
+}
+
+.new-in-section,
+.best-seller-section,
+.categories-section,
+.testimonials-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.headline {
+    letter-spacing: 0.1rem;
+    padding-bottom: 0.5rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.card_wrapper,
+.testimonial_card {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin: 1.5rem;
+
+}
+
+.ratings {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.cards_contents,
+.testimonial_card_contents,
+.view_more_cards_contents {
+    align-content: end;
+    background-color: var(--tertiary-dark);
+    flex: 0 0 calc(25% - 0.5rem);
+    justify-items: center;
+    padding: 0.5rem;
+    text-align: center;
+
+
+}
+
+.best-seller-section div:last-of-type {
+    background-color: var(--tertiary-light) !important;
+}
+
+.footer {
+    background-color: var(--primary-color);
+    color: var(--tertiary-light);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    grid-area: footer;
+    padding-bottom: 1.5rem;
+    padding-left: 1rem;
+
+}
+
+
+.footer_newsletter_input {
+    background-color: var(--primary-color);
+    border-bottom: 2px solid var(--tertiary-light);
+    border: 0;
+    color: var(--tertiary-light) !important;
+    max-width: 300px;
+    padding: 0.5rem 3rem 0.5rem 0;
+    width: 100%;
+}
+
+/*FA star icon*/
+.unchecked {
+    color: var(--tertiary-light)
+}
+
+/* input::webkit-input-placeholder{
+    color:var(--tertiary-light);
+} */
+
+/*MIMICS js click event for view more fxn*/
+
+#show {
+    display: none;
+}
+
+#show:checked~.view_more_content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin: 1.5rem;
+}
+
+#show:checked~label {
+    display: none
+}
+
+.view_more_content {
+    display: none;
+}
+
+
+@media(min-width:769px) {
+
+    .sidebar {
+        justify-content: space-evenly;
+        margin: 0rem auto;
+        padding: 1rem 2rem;
+    }
+
+    .card_wrapper,
+    .testimonial_card {
+        flex-direction: row;
+    }
+
+    #show:checked~.view_more_content {
+        flex-direction: row;
+    }
+
+    .header-container {
+        min-height: 100vh;
+    }
+
+    .footer {
+        flex-direction: row;
+        gap: 5rem;
+
+    }
+
+}

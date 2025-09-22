@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Tenor+Sans&display=swap');
+
+:root{
+    --primary-color: #13493E;
+    --secondary-color: #606C38;
+    --tertiary-dark: #E1E6E5;
+    --tertiary-light: #FCFCFC;
+    --CTA-hover :#283618;
+    --error: #8d0801;
+}
+
+*{
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+body{
+    min-height: 100vh;
+    margin: 0;
+    max-width: 1500px;
+    color: var(--primary-color);
+    background-color: var(--tertiary-light);
+    /* display: grid;
+    grid-template: auto auto auto auto /auto;
+    grid-template-areas: 
+    "header"
+    "sidebar"
+    "main-content"
+    "footer" ; */
+}
+
+h1{
+    font-family: "Tenor Sans", sans-serif;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+h2{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 400;
+
+}
+
+h3{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: 300;
+
+}
+
+h4, p ,a{
+    font-family: "Outfit", sans-serif;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 300;
+}
+
+button , textarea ,input ,label, span{
+    font-family: "Outfit", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 200;
+
+}
+@media(min-width:769px) {
+    
+h1 {
+        font-size: 5rem;
+    }
+}

@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Old Fashioned</title>
+    <link rel="stylesheet" href="./styles/global.css" />
+    <link rel="stylesheet" href="./styles/home.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="header-contents">
+                <h1 class="header_title">Welcome to Old fashioned</h1>
+                <h2 class="header_subtitle">Home of the best apparel</h2>
+                <a href="#new-in-section"><button class="headline_new_in_btn">New In</button></a>
+            </div>
+        </div>
+        </div>
+    </header>
+    <div class="sidebar">
+        <a href="home.html">
+            <h4>Shop</h4>
+        </a>
+        <a href="#new-in-section">
+            <h4>New In</h4>
+        </a>
+        <a href="#best-seller-section">
+            <h4>Best Seller</h4>
+        </a>
+        <a href="./about.html">
+            <h4>About</h4>
+        </a>
+        <a href="./contact.html">
+            <h4>Contact</h4>
+        </a>
+    </div>
+
+    <main class="main-content">
+        <section class="new-in-section" id="new-in-section">
+            <h3 class="headline">New In</h3>
+            <button class="section_btn">New In</button>
+            <div class="card_wrapper">
+                <div class="cards_contents">
+                    <img src="./assets/new_product1.avif" alt="A picture of girl with a shirt" style="width:100%;" />
+                    <h4>Gin Tonic Shirt</h4>
+                    <p>250 SEK</p>
+                    <button class="quick_view_btn">Quick View</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/new_product2.avif" alt="A picture of a guy with a shirt" style="width:100%;" />
+                    <h4>Pina Colada Shirt</h4>
+                    <p>250 SEK</p>
+                    <button class="quick_view_btn">Quick View</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/new_product3.avif" alt="A picture of a guy with sweater" style="width:100%;" />
+                    <h4>Vodka Sweatshirt</h4>
+                    <p>450 SEK</p>
+                    <button class="quick_view_btn">Quick View</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/new_product4.avif" alt="A picture of a guy with a shirt" style="width:100%;" />
+                    <h4>Gin Tonic Tees</h4>
+                    <p>250 SEK</p>
+                    <button class="quick_view_btn">Quick View</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="best-seller-section" id="best-seller-section">
+            <h3 class="headline">Loved By You - Best Sellers</h3>
+            <h4>Looking for anything special?</h4>
+            <form action="/search" method="get" role="search" style="max-width: 400px; margin: 0 auto;">
+                <input class="search_input" type="search" name="q" placeholder="Search Apparel..">
+            </form>
+            <button class="section_btn">Best Seller</button>
+
+            <div class="card_wrapper">
+                <div class="cards_contents">
+                    <img src="./assets/bestseller_product1.avif" alt="Guy covering eyes with 3 hats on"
+                        style="width:100%;" />
+                    <h4>Gin Tonic Shirt</h4>
+                    <p>250 SEK</p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <button class="add_btn">Add to cart</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/bestseller_product2.avif" alt="Girl and a guy smiling" style="width:100%;" />
+                    <h4>Pina Colada Shirt</h4>
+                    <p>250 SEK</p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <button class="add_btn">Add to cart</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/bestseller_product3.avif" alt="Picture of three guys" style="width:100%;" />
+                    <h4>Vodka Sweatshirt</h4>
+                    <p>450 SEK</p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <button class="add_btn">Add to cart</button>
+                </div>
+                <div class="cards_contents">
+                    <button class="view_more_btn"><label for="show">View More</label></button>
+                </div>
+            </div>
+
+            <input id="show" type="checkbox">
+
+            <div class="view_more_content">
+                <div class="view_more_cards_contents">
+                    <img src="./assets/bestseller_product3.avif" alt="Picture of three guys" style="width:100%;" />
+                    <h4>Vodka Sweatshirt</h4>
+                    <p>450 SEK</p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <button class="add_btn">Add to cart</button>
+                </div>
+                <div class="view_more_cards_contents">
+                    <img src="./assets/bestseller_product1.avif" alt="Guy covering eyes with 3 hats on"
+                        style="width:100%;" />
+                    <h4>Gin Tonic Shirt</h4>
+                    <p>250 SEK</p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star unchecked"></span>
+                    <button class="add_btn">Add to cart</button>
+                </div>
+                <div class="view_more_cards_contents">
+                    <img src="./assets/bestseller_product2.avif" alt="Girl and a guy smiling" style="width:100%;" />
+                    <h4>Pina Colada Shirt</h4>
+                    <p>250 SEK</p>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <span class="fa fa-star"></span>
+                    <button class="add_btn">Add to cart</button>
+                </div>
+                <div class="view_more_cards_contents">
+                    <button class="view_less_btn"><label for="show">View Less</label></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="categories-section">
+            <h3 class="headline">What are you looking for?</h3>
+            <button class="section_btn">Browse Categories</button>
+            <div class="card_wrapper">
+                <div class="cards_contents">
+                    <img src="./assets/categories_hats.avif" alt="Holding a hat" style="width:100%;" />
+                    <h4>Hats</h4>
+                    <button class="browse_btn">Browse Hats</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/categories_shirts.avif" alt="Picture of shirts" style="width:100%;" />
+                    <h4>Shirts</h4>
+                    <button class="browse_btn">Browse Shirts</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/categories_swimwear.avif" alt="Green swimwear" style="width:100%;" />
+                    <h4>Swimwear</h4>
+                    <button class="browse_btn">Browse Swimwear</button>
+                </div>
+                <div class="cards_contents">
+                    <img src="./assets/categories_sweatshirts.avif" alt="Shirts pilled on top of each other"
+                        style="width:100%;" />
+                    <h4>Sweatshirt</h4>
+                    <button class="browse_btn">Browse Sweatshirts</button>
+                </div>
+            </div>
+        </section>
+
+        <section class="testimonials-section">
+            <h2 class="headline">50,000+ Customers for a reason</h2>
+            <div class="ratings">
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span>4,8</span>
+            </div>
+            <h3>Based on 1000+ reviews</h3>
+            <div class="testimonial-contents">
+                <div class="testimonial_card">
+                    <div class="testimonial_card_contents">
+                        <h2>Great print! Quality and idea!</h2>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p>F.L</p>
+                    </div>
+
+                    <div class="testimonial_card_contents">
+                        <h2>The only shirt i will wear this summer!</h2>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p>K.L</p>
+                    </div>
+
+                    <div class="testimonial_card_contents">
+                        <h2>So comfy! Love it</h2>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <span class="fa fa-star checked"></span>
+                        <p>W.L</p>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_contents">
+            <h4>Search</h4>
+            <h4>Terms of Service</h4>
+            <h4>Return Policy</h4>
+            <h4>Shipping Policy</h4>
+            <h4>The Cocktail Blog</h4>
+            <h4>The Wine Blog</h4>
+        </div>
+
+        <div class="footer_sign_up">
+            <h3 class="headline">Sign Up To Our Newsletter</h3>
+            <p>Subscribe to get special offers, cocktail recipes and our latest arrivals!</p>
+            <input type="email" value="" placeholder="Enter your email" name="email" id="email"
+                class="footer_newsletter_input" size="50" autocorrect="off" autocapitalize="off" required="">
+        </div>
+    </footer>
+</body>
+
+</html>
