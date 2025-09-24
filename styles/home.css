@@ -135,7 +135,7 @@
 
 .menu_items_wrapper li.active h4 {
     color: var(--primary-color);
-    font-weight: bold;
+    font-family: 'Outfit Medium';
 
 }
 
@@ -191,7 +191,7 @@
 }
 
 .best-seller-section div:last-of-type {
-    background-color: var(--tertiary-light) !important;
+    background-color: var(--tertiary-light);
 }
 
 .footer {
@@ -208,9 +208,9 @@
 
 .footer_newsletter_input {
     background-color: var(--primary-color);
-    border-bottom: 2px solid var(--tertiary-light);
     border: 0;
-    color: var(--tertiary-light) !important;
+    border-bottom: 2px solid var(--tertiary-light);
+    color: var(--tertiary-light);
     max-width: 300px;
     padding: 0.5rem 3rem 0.5rem 0;
     width: 100%;
@@ -270,7 +270,6 @@
 
     .menu_items_wrapper li.active h4 {
         border-bottom: 2px solid var(--CTA-hover);
-        font-weight: normal;
 
     }
 
