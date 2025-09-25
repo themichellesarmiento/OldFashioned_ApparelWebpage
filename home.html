@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Old Fashioned</title>
+    <link rel="stylesheet" href="./styles/typography.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -21,23 +22,27 @@
         </div>
         </div>
     </header>
-    <div class="sidebar">
-        <a href="home.html">
-            <h4>Shop</h4>
-        </a>
-        <a href="#new-in-section">
-            <h4>New In</h4>
-        </a>
-        <a href="#best-seller-section">
-            <h4>Best Seller</h4>
-        </a>
-        <a href="./about.html">
-            <h4>About</h4>
-        </a>
-        <a href="./contact.html">
-            <h4>Contact</h4>
-        </a>
-    </div>
+
+    <nav class="menu">
+        <div class="menu_mobile_trigger"></div>
+        <ul class="menu_items_wrapper">
+            <li class="active"><a href="home.html">
+                    <h4>Shop</h4>
+                </a></li>
+            <li><a href="#new-in-section">
+                    <h4>New In</h4>
+                </a></li>
+            <li><a href="#best-seller-section">
+                    <h4>Best Seller</h4>
+                </a></li>
+            <li><a href="./about.html">
+                    <h4>About</h4>
+                </a></li>
+            <li><a href="./contact.html">
+                    <h4>Contact</h4>
+                </a></li>
+        </ul>
+    </nav>
 
     <main class="main-content">
         <section class="new-in-section" id="new-in-section">
@@ -45,25 +50,25 @@
             <button class="section_btn">New In</button>
             <div class="card_wrapper">
                 <div class="cards_contents">
-                    <img src="./assets/new_product1.avif" alt="A picture of girl with a shirt" style="width:100%;" />
+                    <img src="./assets/new_product1.avif" alt="A picture of girl with a shirt" style="width: 100%; height: auto;" />
                     <h4>Gin Tonic Shirt</h4>
                     <p>250 SEK</p>
                     <button class="quick_view_btn">Quick View</button>
                 </div>
                 <div class="cards_contents">
-                    <img src="./assets/new_product2.avif" alt="A picture of a guy with a shirt" style="width:100%;" />
+                    <img src="./assets/new_product2.avif" alt="A picture of a guy with a shirt" style="width:100%;  height: auto;" />
                     <h4>Pina Colada Shirt</h4>
                     <p>250 SEK</p>
                     <button class="quick_view_btn">Quick View</button>
                 </div>
                 <div class="cards_contents">
-                    <img src="./assets/new_product3.avif" alt="A picture of a guy with sweater" style="width:100%;" />
+                    <img src="./assets/new_product3.avif" alt="A picture of a guy with sweater" style="width:100%;  height: auto;" />
                     <h4>Vodka Sweatshirt</h4>
                     <p>450 SEK</p>
                     <button class="quick_view_btn">Quick View</button>
                 </div>
                 <div class="cards_contents">
-                    <img src="./assets/new_product4.avif" alt="A picture of a guy with a shirt" style="width:100%;" />
+                    <img src="./assets/new_product4.avif" alt="A picture of a guy with a shirt" style="width:100%;  height: auto;" />
                     <h4>Gin Tonic Tees</h4>
                     <p>250 SEK</p>
                     <button class="quick_view_btn">Quick View</button>
@@ -82,7 +87,7 @@
             <div class="card_wrapper">
                 <div class="cards_contents">
                     <img src="./assets/bestseller_product1.avif" alt="Guy covering eyes with 3 hats on"
-                        style="width:100%;" />
+                        style="width:100%; height: auto;" />
                     <h4>Gin Tonic Shirt</h4>
                     <p>250 SEK</p>
                     <span class="fa fa-star"></span>
@@ -93,7 +98,7 @@
                     <button class="add_btn">Add to cart</button>
                 </div>
                 <div class="cards_contents">
-                    <img src="./assets/bestseller_product2.avif" alt="Girl and a guy smiling" style="width:100%;" />
+                    <img src="./assets/bestseller_product2.avif" alt="Girl and a guy smiling" style="width:100%; height: auto;" />
                     <h4>Pina Colada Shirt</h4>
                     <p>250 SEK</p>
                     <span class="fa fa-star"></span>
@@ -104,7 +109,7 @@
                     <button class="add_btn">Add to cart</button>
                 </div>
                 <div class="cards_contents">
-                    <img src="./assets/bestseller_product3.avif" alt="Picture of three guys" style="width:100%;" />
+                    <img src="./assets/bestseller_product3.avif" alt="Picture of three guys" style="width:100%; height: auto;" />
                     <h4>Vodka Sweatshirt</h4>
                     <p>450 SEK</p>
                     <span class="fa fa-star"></span>
@@ -121,9 +126,11 @@
 
             <input id="show" type="checkbox">
 
+            <!-- View more content function  -->
+
             <div class="view_more_content">
                 <div class="view_more_cards_contents">
-                    <img src="./assets/bestseller_product3.avif" alt="Picture of three guys" style="width:100%;" />
+                    <img src="./assets/bestseller_product3.avif" alt="Picture of three guys" style="width:100%;  height: auto;" />
                     <h4>Vodka Sweatshirt</h4>
                     <p>450 SEK</p>
                     <span class="fa fa-star"></span>
@@ -135,7 +142,7 @@
                 </div>
                 <div class="view_more_cards_contents">
                     <img src="./assets/bestseller_product1.avif" alt="Guy covering eyes with 3 hats on"
-                        style="width:100%;" />
+                        style="width:100%;  height: auto;" />
                     <h4>Gin Tonic Shirt</h4>
                     <p>250 SEK</p>
                     <span class="fa fa-star"></span>
@@ -146,7 +153,7 @@
                     <button class="add_btn">Add to cart</button>
                 </div>
                 <div class="view_more_cards_contents">
-                    <img src="./assets/bestseller_product2.avif" alt="Girl and a guy smiling" style="width:100%;" />
+                    <img src="./assets/bestseller_product2.avif" alt="Girl and a guy smiling" style="width:100%;  height: auto;" />
                     <h4>Pina Colada Shirt</h4>
                     <p>250 SEK</p>
                     <span class="fa fa-star"></span>
@@ -167,23 +174,23 @@
             <button class="section_btn">Browse Categories</button>
             <div class="card_wrapper">
                 <div class="cards_contents">
-                    <img src="./assets/categories_hats.avif" alt="Holding a hat" style="width:100%;" />
+                    <img src="./assets/categories_hats.avif" alt="Holding a hat" style="width:100%;  height: auto;" />
                     <h4>Hats</h4>
                     <button class="browse_btn">Browse Hats</button>
                 </div>
                 <div class="cards_contents">
-                    <img src="./assets/categories_shirts.avif" alt="Picture of shirts" style="width:100%;" />
+                    <img src="./assets/categories_shirts.avif" alt="Picture of shirts" style="width:100%;  height: auto;" />
                     <h4>Shirts</h4>
                     <button class="browse_btn">Browse Shirts</button>
                 </div>
                 <div class="cards_contents">
-                    <img src="./assets/categories_swimwear.avif" alt="Green swimwear" style="width:100%;" />
+                    <img src="./assets/categories_swimwear.avif" alt="Green swimwear" style="width:100%;  height: auto;" />
                     <h4>Swimwear</h4>
                     <button class="browse_btn">Browse Swimwear</button>
                 </div>
                 <div class="cards_contents">
                     <img src="./assets/categories_sweatshirts.avif" alt="Shirts pilled on top of each other"
-                        style="width:100%;" />
+                        style="width:100%;  height: auto;" />
                     <h4>Sweatshirt</h4>
                     <button class="browse_btn">Browse Sweatshirts</button>
                 </div>

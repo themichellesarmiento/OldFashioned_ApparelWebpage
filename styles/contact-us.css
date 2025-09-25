@@ -69,6 +69,7 @@ textarea {
 
 .image {
     max-width: 100%;
+    height: auto;
 }
 
 @media(min-width:769px) {
@@ -80,11 +81,6 @@ textarea {
 
     .image_container {
         flex-shrink: 2;
-    }
-
-
-    .image {
-        height: auto;
     }
 
     .customer_support {

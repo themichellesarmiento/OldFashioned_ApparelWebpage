@@ -21,7 +21,7 @@
 }
 
 .about_us_tagline {
-    font-weight: bold;
+    font-family: 'Outfit Semibold';
     letter-spacing: 0.2rem;
     text-transform: uppercase;
 
@@ -29,6 +29,7 @@
 
 .image {
     max-width: 100%;
+    height: auto;
 }
 
 @media(min-width:769px) {
@@ -37,10 +38,6 @@
         padding-right: 2rem;
         padding-top: 2rem;
 
-    }
-
-    .image {
-        height: auto;
     }
 
     .about_us_contents {

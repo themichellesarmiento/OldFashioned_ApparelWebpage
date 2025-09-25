@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Old Fashioned</title>
+    <link rel="stylesheet" href="./styles/typography.css" />
     <link rel="stylesheet" href="./styles/global.css" />
     <link rel="stylesheet" href="./styles/home.css" />
     <link rel="stylesheet" href="./styles/about-us.css" />
@@ -22,23 +23,27 @@
         </div>
         </div>
     </header>
-    <div class="sidebar">
-        <a href="home.html">
-            <h4>Shop</h4>
-        </a>
-        <a href="./home.html#new-in-section">
-            <h4>New In</h4>
-        </a>
-        <a href="./home.html#best-seller-section">
-            <h4>Best Seller</h4>
-        </a>
-        <a href="./about.html">
-            <h4>About</h4>
-        </a>
-        <a href="./contact.html">
-            <h4>Contact</h4>
-        </a>
-    </div>
+
+    <nav class="menu">
+        <div class="menu_mobile_trigger"></div>
+        <ul class="menu_items_wrapper">
+            <li><a href="home.html">
+                    <h4>Shop</h4>
+                </a></li>
+            <li><a href="./home.html#new-in-section">
+                    <h4>New In</h4>
+                </a></li>
+            <li><a href="./home.html#best-seller-section">
+                    <h4>Best Seller</h4>
+                </a></li>
+            <li class="active"><a href="./about.html">
+                    <h4>About</h4>
+                </a></li>
+            <li><a href="./contact.html">
+                    <h4>Contact</h4>
+                </a></li>
+        </ul>
+    </nav>
 
     <main class="main-content">
         <h2 class="about_us_headline">About Us</h2>
