@@ -210,6 +210,10 @@
     display: none;
 }
 
+.testimonials-section .testimonial_card_contents>h2,
+.testimonials-section .testimonial_card_contents>p {
+    font-size: 1rem;
+}
 
 .best-seller-section div:last-of-type {
     background-color: var(--tertiary-light);
@@ -297,6 +301,14 @@
     .categories-section .cards_contents>img,
     .categories-section .cards_contents>h4 {
         display: flex;
+    }
+
+    .testimonials-section .testimonial_card_contents>h2 {
+        font-size: 1.5rem;
+    }
+
+    .testimonials-section .testimonial_card_contents>p {
+        font-size: 1.2rem;
     }
 
     .browse_btn {
