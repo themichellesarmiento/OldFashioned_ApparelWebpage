@@ -14,17 +14,20 @@
     scroll-behavior: smooth;
 }
 
+html{
+    height: 100vh;
+}
+
 body {
-    min-height: 100vh;
+    min-height: 100%;
     margin: 0;
     color: var(--primary-color);
     background-color: var(--tertiary-light);
 }
 
 h1 {
-    font-family: 'Tenor Sans', Arial, Helvetica, sans-serif;
-    font-size: 3rem;
-    font-weight: normal;
+    font-family: 'Outfit Regular', Arial, Helvetica, sans-serif;
+    font-size: 2rem;
 }
 
 h2 {
@@ -51,11 +54,4 @@ label,
 span {
     font-family: 'Outfit ExtraLight', Arial, Helvetica, sans-serif;
     font-size: 1rem;
-}
-
-@media(min-width:769px) {
-
-    h1 {
-        font-size: 5rem;
-    }
 }
