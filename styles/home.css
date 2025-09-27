@@ -273,7 +273,7 @@
     display: none;
 }
 
-@media(min-width:769px) {
+@media screen and (min-width:769px) {
 
     .header_title {
         font-size: 5rem;

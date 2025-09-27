@@ -72,7 +72,7 @@ textarea {
     height: auto;
 }
 
-@media(min-width:769px) {
+@media screen and (min-width:769px) {
 
     .contact_us_customer_service {
         flex-direction: row;
